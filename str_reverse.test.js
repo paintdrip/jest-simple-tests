@@ -1,11 +1,8 @@
 const reverseString = require('./tasks/task_01');
 
-// test(
-//     'Проверка на реверс заданной строки',
-//     () => {
-//         expect(reverseString('chelik')).toBe('kilehc');
-//     }
-// );
+// test('Развернута ли строка?', () => {
+//   expect(reverseString('chelik')).toBe('kilehc');
+// });
 
 describe('Три способа проверки', () => {
   const testCases = [
